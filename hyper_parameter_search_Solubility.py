@@ -31,7 +31,7 @@ import Featurizer
 import Featurizer_aromaticity_rm
 
 import getFeatures
-from getFeatures import save_smiles_dicts, save_smiles_dicts, get_smiles_dicts, get_smiles_array, moltosvg_highlight
+from getFeatures import save_smiles_dicts, get_smiles_dicts, get_smiles_array, moltosvg_highlight
 
 import getFeatures_aromaticity_rm
 
@@ -57,7 +57,6 @@ import matplotlib.cm as cm
 import matplotlib
 from IPython.display import SVG, display
 import seaborn as sns; sns.set(color_codes=True)
-
 
 task_name = 'solubility'
 tasks = ['measured log solubility in mols per litre']

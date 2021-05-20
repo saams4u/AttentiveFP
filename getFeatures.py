@@ -9,7 +9,7 @@ import rdkit
 from rdkit import Chem
 from rdkit.Chem import AllChem
 import os
-from AttentiveFP.Featurizer import *
+from Featurizer import *
 import pickle
 import time
 from rdkit.Chem import rdDepictor
